@@ -1,0 +1,51 @@
+{
+  "provinsi": "Jawa Barat",
+  "kabupaten": "Bogor",
+  "kecamatan": "Cileungsi",
+  "desa": "Nagrak",
+  "rw": "001",
+  "rt": "004B",
+  "metadata": {
+    "total_warga": 3,
+    "total_kepala_keluarga": 1,
+    "terakhir_diperbarui": "2026-07-15"
+  },
+  "daftar_warga": [
+    {
+      "nik": "3201021234560001",
+      "no_kartu_keluarga": "3201029876540001",
+      "nama_lengkap": "Ahmad Rian",
+      "jenis_kelamin": "Laki-laki",
+      "tempat_lahir": "Bogor",
+      "tanggal_lahir": "1985-05-12",
+      "agama": "Islam",
+      "pekerjaan": "Karyawan Swasta",
+      "status_hubungan_keluarga": "Kepala Keluarga",
+      "status_kependudukan": "Tetap"
+    },
+    {
+      "nik": "3201021234560002",
+      "no_kartu_keluarga": "3201029876540001",
+      "nama_lengkap": "Siti Aminah",
+      "jenis_kelamin": "Perempuan",
+      "tempat_lahir": "Jakarta",
+      "tanggal_lahir": "1989-09-20",
+      "agama": "Islam",
+      "pekerjaan": "Ibu Rumah Tangga",
+      "status_hubungan_keluarga": "Istri",
+      "status_kependudukan": "Tetap"
+    },
+    {
+      "nik": "3201021234560003",
+      "no_kartu_keluarga": "3201029876540001",
+      "nama_lengkap": "Rizky Ramadhan",
+      "jenis_kelamin": "Laki-laki",
+      "tempat_lahir": "Bogor",
+      "tanggal_lahir": "2015-01-05",
+      "agama": "Islam",
+      "pekerjaan": "Pelajar",
+      "status_hubungan_keluarga": "Anak",
+      "status_kependudukan": "Tetap"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+#include <iostream>
+#include <string>
+
+class AlamatDusun {
+private:
+    std::string namaDusun;
+    std::string rt;
+    std::string rw;
+    std::string kecamatan;
+    std::string kabupaten;
+
+public:
+    // Constructor untuk inisialisasi data
+    AlamatDusun(std::string dusun, std::string rtNo, std::string rwNo, std::string kec, std::string kab) 
+        : namaDusun(dusun), rt(rtNo), rw(rwNo), kecamatan(kec), kabupaten(kab) {}
+
+    // Method untuk menampilkan alamat secara lengkap dan rapi
+    void tampilkanAlamat() const {
+        std::cout << "=========================================\n";
+        std::cout << "             DATA ALAMAT DUSUN           \n";
+        std::cout << "=========================================\n";
+        std::cout << "Dusun     : " << namaDusun << "\n";
+        std::cout << "RT / RW   : RT " << rt << " / RW " << rw << "\n";
+        std::cout << "Kecamatan : " << kecamatan << "\n";
+        std::cout << "Kabupaten : " << kabupaten << "\n";
+        std::cout << "=========================================\n";
+        std::cout << "Format Baris: " << namaDusun << ", RT " << rt << "/RW " << rw 
+                  << ", Kec. " << kecamatan << ", Kab. " << kabupaten << "\n";
+    }
+};
+
+int main() {
+    // Membuat objek alamat sesuai data yang Anda berikan
+    AlamatDusun alamat1("Nagrak", "004b", "001", "Cileungsi", "Bogor");
+
+    // Menampilkan data alamat ke layar
+    alamat1.tampilkanAlamat();
+
+    return 0;
+}
